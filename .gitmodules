@@ -1,3 +1,6 @@
 [submodule "advancedonsite-static"]
 	path = advancedonsite-static
 	url = https://github.com/jasonbronson/advancedonsite-static
+[submodule "newlightimages"]
+	path = newlightimages
+	url = https://github.com/jasonbronson/newlightimages.git
