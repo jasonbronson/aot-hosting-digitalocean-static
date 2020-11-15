@@ -1,0 +1,180 @@
+/*
+Copyright (c) 2008, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 2.5.1
+*/
+/* base.css, part of YUI's CSS Foundation */
+
+* {
+padding: 0;
+margin: 0;
+}
+
+
+html, body {
+  background-image: url('../images/background.png');
+  background-repeat: repeat-x;
+  height: 100%;
+  margin:0; 
+  padding:0; 	
+}
+
+/* setting a consistent width, 160px; 
+   control of type=file still not possible */
+input[type=text],input[type=password],textarea{width:12.25em;*width:11.9em;}
+
+.p{
+	display: block;
+    margin: 1em 0px;	
+}
+
+.maintext{
+	color: rgb(57, 57, 0);
+    font-size: 14px;	
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.mainblock{
+	
+	width: 770px;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px;
+    border-width: 0px;
+    border-style: solid;
+    border-color: blue;
+    
+}
+
+.border_black{
+	border-width: 5px;
+    border-style: solid;
+    border-color: #8F8E79;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;	
+    color: #3C2A0A;
+    font-size: 14px;
+   
+    background-color: #E6DECC;
+    text-align: left;
+    line-height:200%;
+}
+
+.menu{
+	font-size: 20px;
+	color: #3C2A0A;	
+	margin-bottom: 10px;
+}
+
+.menu a:link {text-decoration: none; color: #8F8E79; border-width: 1px; border-style: solid; border-color: white; padding-top: 4px; padding-left: 20px; padding-right: 20px; padding-bottom: 4px;}
+.menu a:visited {text-decoration: none; color: #8F8E79; border-width: 1px; border-style: solid; border-color: white; padding-top: 4px; padding-left: 20px; padding-right: 20px; padding-bottom: 4px;}
+.menu a:active {text-decoration: none; color: #8F8E79; border-width: 1px; border-style: solid; border-color: white; padding-top: 4px; padding-left: 20px; padding-right: 20px; padding-bottom: 4px;}
+.menu a:hover {text-decoration: none; color: #8F8E79; border-width: 1px; border-style: solid; border-color: #E6DECC; padding-top: 4px; padding-left: 20px; padding-right: 20px; padding-bottom: 4px;}
+
+
+
+.img_border{
+	border-width: 1px;
+    border-style: solid;
+    border-color: black;	
+}
+
+table
+{ 
+ margin-left: auto;
+ margin-right: auto;
+}
+
+
+.masterhead{
+	height: 30px;
+	width: 770px;
+	margin-top: 0px;
+	margin-bottom: 17px;
+	margin-left: 0px;
+	/*background-color: white;*/
+	border-color: red;
+	border-width: 0px;
+	border-style: solid;
+	text-align: center;		
+}
+.maincolumn{
+	background-color: white;
+	clear:both;	
+	border-color: blue;
+	border-width: 0px;
+	border-style: solid;	
+	text-align: center;
+	
+}
+
+.logo{
+	background-image: url('../images/spglogo.png');
+	background-repeat: no-repeat; 
+	background-color: white;
+	border-style: solid;
+  	border-width: 0px;
+  	width: 770px;
+  	height: 160px;
+  	clear:both;
+  	
+  		
+}
+.footer{
+	padding-top: 40px;
+	padding-right: 10px;
+	background-color:white;	
+	height: 100px;
+	text-align: right;
+	font-size: 12px;
+}
+/*
+ol {
+  margin-left: auto;
+  margin-right: auto;	
+  list-style-type:decimal; 
+  width: 700px; 
+  border-style: solid;
+  border-width: 0px;
+  
+}
+ol li {
+ float: left; 
+ width: 150px; 
+ padding: 2px 0px; 
+ list-style: none;
+ border-style: solid;
+ border-width: 1px;
+ border-color: red;
+ color: red;		
+}
+*/
+ol {
+  margin-left: auto;
+  margin-right: auto;	
+ 
+  width: 700px; 
+  border-style: solid;
+  border-width: 0px;
+  
+}
+ol li {
+ 
+ padding: 0px 0px; 
+ list-style: none;
+ border-style: solid;
+ border-width: 0px;
+ border-color: red;
+ 		
+}
+
+.descrip{
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;		
+}
