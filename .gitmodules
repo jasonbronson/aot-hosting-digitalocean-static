@@ -4,3 +4,6 @@
 [submodule "newlightimages"]
 	path = newlightimages
 	url = https://github.com/jasonbronson/newlightimages.git
+[submodule "crawlmonster-vue"]
+	path = crawlmonster-vue
+	url = https://github.com/jasonbronson/crawlmonster-vue
