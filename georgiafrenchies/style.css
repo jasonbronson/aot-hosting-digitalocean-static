@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+}
+.hero {
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.50)), url("stormy.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  height: 100%;
+  border: 0px solid red;
+}
+.hero .her1 {
+    position: relative;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, 30%);
+}
+.hero .t {
+  width: max-content;
+  margin: 35px auto;
+
+}
+.play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.tk {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.ab {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.hero2 {
+  /* width: calc(100% - 15rem);
+  margin: 0 auto; */
+}
+.hero2 > h1 {
+  font-family: 'Assistant', sans-serif;
+   /* color: #f2f3f5; */
+}
